@@ -14,6 +14,7 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaInstagram,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -101,7 +102,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                        {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -111,6 +112,19 @@ function Landing() {
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Twitter'
+                                />
+                            </a>
+                        )}
+                        {socialsData.instagram && (
+                            <a
+                                href={socialsData.instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaInstagram
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
@@ -139,7 +153,7 @@ function Landing() {
                                     aria-label='Blogger'
                                 />
                             </a>
-                        )} */}
+                        )}
                     </div>
                 </div>
                 <img

@@ -75,6 +75,15 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import laravel from '../assets/svg/skills/laravel.svg'
+import codeigniter from '../assets/svg/skills/codeigniter.svg'
+import cakephp from '../assets/svg/skills/cakephp.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
+import nextjs from '../assets/svg/skills/nextjs.svg'
+import expressjs from '../assets/svg/skills/expressjs.svg'
+import adonisjs from '../assets/svg/skills/adonisjs.svg'
+import github from '../assets/svg/skills/github.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +236,22 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'laravel':
+            return laravel;
+        case 'codeigniter':
+            return codeigniter;
+        case 'cakephp':
+            return cakephp;
+        case 'nodejs':
+            return nodejs;
+        case 'nextjs':
+            return nextjs;
+        case 'expressjs':
+            return expressjs;
+        case 'adonisjs':
+            return adonisjs;
+        case 'github':
+            return github;
         default:
             break;
     }

@@ -215,7 +215,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#education'
                                 smooth={true}
@@ -231,7 +231,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink
@@ -251,7 +251,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#projects'
                                 smooth={true}
@@ -267,7 +267,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

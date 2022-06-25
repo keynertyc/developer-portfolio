@@ -1,13 +1,13 @@
 export const socialsData = {
-    github: 'https://github.com/sreerag-rajan',
+    github: 'https://github.com/keynertyc',
     facebook: '',
-    linkedIn: 'https://www.linkedin.com/in/sreerag-rajan-55383a222',
-    instagram: '',
+    linkedIn: 'https://www.linkedin.com/in/keynertyc/?locale=en_US',
+    instagram: 'https://www.instagram.com/keynertyc',
     codepen: '',
-    twitter: '',
+    twitter: 'https://twitter.com/keynertyc',
     reddit: '',
     blogger: '',
-    medium: 'https://medium.com/@sreerag.rajan5',
+    medium: '',
     stackOverflow: '',
     gitlab: '',
     youtube: ''
