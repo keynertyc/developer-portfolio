@@ -83,6 +83,14 @@ import nextjs from '../assets/svg/skills/nextjs.svg'
 import expressjs from '../assets/svg/skills/expressjs.svg'
 import adonisjs from '../assets/svg/skills/adonisjs.svg'
 import github from '../assets/svg/skills/github.svg'
+import nestjs from '../assets/svg/skills/nestjs.svg'
+import oop from '../assets/svg/skills/oop.svg'
+import solid from '../assets/svg/skills/solid.svg'
+import designpatterns from '../assets/svg/skills/designpatterns.svg'
+import linux from '../assets/svg/skills/linux.svg'
+import macos from '../assets/svg/skills/macos.svg'
+import visualstudiocode from '../assets/svg/skills/visualstudiocode.svg'
+import jira from '../assets/svg/skills/jira.svg'
 
 
 export const skillsImage = (skill) => {
@@ -252,6 +260,22 @@ export const skillsImage = (skill) => {
             return adonisjs;
         case 'github':
             return github;
+        case 'nestjs':
+            return nestjs;
+        case 'object oriented programming':
+            return oop;
+        case 'solid principles':
+            return solid;
+        case 'design patterns':
+            return designpatterns;
+        case 'linux':
+            return linux;
+        case 'macos':
+            return macos;
+        case 'visual studio code':
+            return visualstudiocode;
+        case 'jira':
+            return jira;
         default:
             break;
     }

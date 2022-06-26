@@ -1,4 +1,7 @@
  export const skillsData = [
+    'Object Oriented Programming',
+    'SOLID Principles',
+    'Design Patterns',
     'PHP',
     'Laravel',
     'CodeIgniter',
@@ -7,15 +10,25 @@
     'Typescript',
     'NodeJS',
     'ExpressJS',
-    'Svelte',
     'React',
     'NextJS',
+    'NestJS',
     'AdonisJS',
     'MySQL',
+    'PostgreSQL',
     'MongoDB',
     'Git',
     'GitHub',
-    'AWS'
+    'Docker',
+    'AWS',
+    'Jira',
+    'Html',
+    'Bootstrap',
+    'Tailwind',
+    'MaterialUI',
+    'Linux',
+    'Macos',
+    'Visual Studio Code',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
